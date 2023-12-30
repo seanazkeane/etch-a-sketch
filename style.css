@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1 {
+    color: gold;
+    font-family: 'Marck Script', cursive;
+    font-size: 24px;
+    margin: 8px;
+}
+
+.h3 {
+    color: gold;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.text-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: red;
+    width: 440px;
+    border-radius: 15px;
+}
+
+.grid {
+    width: 360px;
+    height: 360px;
+    display: grid;
+    background-color: white;
+}
+
+.clear-btn {
+    margin: 12px;
+    height: 56px;
+    width: 56px;
+    border-radius: 50%;
+    font-family: sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: gray;
+}
